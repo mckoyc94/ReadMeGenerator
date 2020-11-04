@@ -1,3 +1,4 @@
+// Link Inquirer to JS File
 const inquirer = require('inquirer')
 
 // array of questions for user
@@ -20,7 +21,15 @@ function writeToFile(fileName, data) {
 
 // function to initialize program
 function init() {
-
+    inquirer
+        .prompt([{
+            type: 'input',
+            message: questions[0],
+            name: "title"
+        }
+        ]).then(response =>{
+            console.log(response.title)
+        })
 }
 
 // function call to initialize program
