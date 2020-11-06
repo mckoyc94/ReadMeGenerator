@@ -5,7 +5,6 @@ const inquirer = require('inquirer')
 const questions = [
     `What is the name of your project?`, 
     `Briefly describe your project`,
-    `Does your package require any installation?`,
     `What needs to be installed?`,
     `How does your project work?`,
     `What License does it use?`,
@@ -20,15 +19,58 @@ function writeToFile(fileName, data) {
 }
 
 // function to initialize program
-function init() {
+const init = () => {
     inquirer
         .prompt([{
             type: 'input',
             message: questions[0],
             name: "title"
+        }, {
+            type: 'input',
+            message: questions[1],
+            name: 'description'
+        },{
+            type: 'input',
+            message: questions[2],
+            name: 'install'
+            
+        },{
+            type: 'input',
+            message: questions[3],
+            name: 'usage'
+        },{
+            type: 'list',
+            message: questions[4],
+            choices: ['MIT', 'Apache', 'GNU', 'Mozilla', 'IBM', "ISC"],
+            name: 'license'
+        },{
+            type: 'input',
+            message: questions[5],
+            name: 'contact'
+        },{
+            type: 'input',
+            message: questions[6],
+            name: 'test'
+        },{
+            type: 'input',
+            message: questions[7],
+            name: 'github'
+        },{
+            type: 'input',
+            message: questions[8],
+            name: 'email'
         }
         ]).then(response =>{
             console.log(response.title)
+            console.log(response.description)
+            console.log(response.install)
+            console.log(response.usage)
+            console.log(response.license)
+            console.log(response.contact)
+            console.log(response.test)
+            console.log(response.github)
+            console.log(response.email)
+
         })
 }
 
