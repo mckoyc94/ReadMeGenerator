@@ -1,78 +1,63 @@
 // Link Inquirer to JS File
+const fs = require('fs');
 const inquirer = require('inquirer')
 
 // array of questions for user
-const questions = [
-    `What is the name of your project?`, 
-    `Briefly describe your project`,
-    `What needs to be installed?`,
-    `How does your project work?`,
-    `What License does it use?`,
-    `How can someone contribute to this project?`,
-    'How do you test your project?',
-    `What is your Github URL?`,
-    `What is your email?`
+const questions = [{
+    type: 'input',
+    message:`What is the name of your project?`, 
+    name: "title"
+}, {
+    type: 'input',
+    message:`Briefly describe your project`,
+    name: 'description'
+},{
+    type: 'input',
+    message: `What needs to be installed?`,
+    name: 'install'
+    
+},{
+    type: 'input',
+    message:`How does your project work?`,
+    name: 'usage'
+},{
+    type: 'list',
+    message: `What License does it use?`,
+    choices: ['MIT', 'Apache', 'GNU', 'Mozilla', 'IBM', "ISC"],
+    name: 'license'
+},{
+    type: 'input',
+    message:`How can someone contribute to this project?`,
+    name: 'contact'
+},{
+    type: 'input',
+    message:'How do you test your project?',
+    name: 'test'
+},{
+    type: 'input',
+    message:`What is your Github URL?`,
+    name: 'github'
+},{
+    type: 'input',
+    message:`What is your email?`,
+    name: 'email'
+}
 ];
 
 // function to write README file
-function writeToFile(fileName, data) {
+const writeToFile = (fileName, data) => {
+    fs.writeFile(fileName, data)
 }
 
 // function to initialize program
 const init = () => {
-    inquirer
-        .prompt([{
-            type: 'input',
-            message: questions[0],
-            name: "title"
-        }, {
-            type: 'input',
-            message: questions[1],
-            name: 'description'
-        },{
-            type: 'input',
-            message: questions[2],
-            name: 'install'
-            
-        },{
-            type: 'input',
-            message: questions[3],
-            name: 'usage'
-        },{
-            type: 'list',
-            message: questions[4],
-            choices: ['MIT', 'Apache', 'GNU', 'Mozilla', 'IBM', "ISC"],
-            name: 'license'
-        },{
-            type: 'input',
-            message: questions[5],
-            name: 'contact'
-        },{
-            type: 'input',
-            message: questions[6],
-            name: 'test'
-        },{
-            type: 'input',
-            message: questions[7],
-            name: 'github'
-        },{
-            type: 'input',
-            message: questions[8],
-            name: 'email'
-        }
-        ]).then(response =>{
-            console.log(response.title)
-            console.log(response.description)
-            console.log(response.install)
-            console.log(response.usage)
-            console.log(response.license)
-            console.log(response.contact)
-            console.log(response.test)
-            console.log(response.github)
-            console.log(response.email)
-
-        })
-}
+    inquirer.prompt(questions).then( response => {
+        
+        let fileName = response.title.split(" ").join("") + '.md'
+        writeToFile(fileName, response)
+        
+        }) 
+    }
 
 // function call to initialize program
 init();
