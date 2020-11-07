@@ -24,12 +24,12 @@ const questions = [{
 },{
     type: 'list',
     message: `What License does it use?`,
-    choices: ['MIT', 'Apache', 'GNU', 'Mozilla', 'IBM', "ISC"],
+    choices: ['MIT', 'Apache', 'Mozilla', 'IBM', "ISC"],
     name: 'license'
 },{
     type: 'input',
     message:`How can someone contribute to this project?`,
-    name: 'contact'
+    name: 'contribute'
 },{
     type: 'input',
     message:'How do you test your project?',
