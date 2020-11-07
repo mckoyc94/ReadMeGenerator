@@ -12,20 +12,27 @@ function generateMarkdown(data) {
   * [Questions](#questions)
     
   ## Description
-  <p> Test </p>
+  <p> ${data.description} </p>
   
   ## Installation
-  <p> Testing </p>
+  <p> ${data.install} </p>
 
   ## Usage
+  <p> ${data.usage} </p>
 
   ## License
-
+  <p> ${data.license} </p>
+  
   ## Contribute
+  <p> ${data.contribute} </p>
 
   ## Testing
+  <p> ${data.test} </p>
 
   ## Questions
+  <p> For any questions, contact me at </p>
+  <p> Email : ${data.email} </p>
+  <p> Github : ${data.github} </p>
 
 `;
 }
