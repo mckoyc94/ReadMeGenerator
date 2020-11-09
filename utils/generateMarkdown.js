@@ -29,7 +29,9 @@ const badgeMozilla =
 
 // function to generate markdown for README
 function generateMarkdown(data) {
-  return `# ${data.title}
+  return `
+  # ${data.title}
+  ${renderBadge(data.license)}
   
   ## Table of Contents
   * [Description](#description)
@@ -50,8 +52,7 @@ function generateMarkdown(data) {
   <p> ${data.usage} </p>
 
   ## License
-  ${renderBadge(data.license)}
-  
+  <p> This app is covered under the ${data.license} License </p>
   ## Contribute
   <p> ${data.contribute} </p>
 
@@ -61,7 +62,7 @@ function generateMarkdown(data) {
   ## Questions
   <p> For any questions, contact me at </p>
   <p> Email : ${data.email} </p>
-  <p> Github : ${data.github} </p>
+  <p> Github Account: ${data.github}</p> 
 
 `;
 }

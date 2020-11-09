@@ -10,25 +10,26 @@
   * [Questions](#questions)
     
   ## Description
-  <p> It writes stuff </p>
+  <p> Pass </p>
   
   ## Installation
-  <p> Things </p>
+  <p> Nuttin </p>
 
   ## Usage
-  <p> It doesn't </p>
+  <p> It works </p>
 
   ## License
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   
   ## Contribute
-  <p> They can't </p>
+  <p>  </p>
 
   ## Testing
-  <p> Have it fight other apps </p>
+  <p>  </p>
 
   ## Questions
   <p> For any questions, contact me at </p>
-  <p> Email : ?? </p>
-  <p> Github : IDC </p>
+  <p> Email :  </p>
+  <p> Github : </p>
+  [mckoyc94](https://github.com/mckoyc94) 
 
