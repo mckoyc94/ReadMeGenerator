@@ -14,7 +14,7 @@ const badgeMozilla =
   "[![License: MPL-2.0](https://img.shields.io/badge/License-MPL-blue.svg)](https://opensource.org/licenses/MPL-2.0)";
 
 
-  const renderBadges = (badge) => {
+  const renderBadge = (badge) => {
   if (badge === "MIT") {
     return badgeMIT;
   } else if (badge === "ISC") {

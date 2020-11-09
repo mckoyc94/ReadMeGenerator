@@ -10,25 +10,25 @@
   * [Questions](#questions)
     
   ## Description
-  <p> This is a tester code to make sure things work </p>
+  <p> It writes stuff </p>
   
   ## Installation
-  <p> Nuttin </p>
+  <p> Things </p>
 
   ## Usage
-  <p> It takes what's written here and posts it into a new document </p>
+  <p> It doesn't </p>
 
   ## License
-  <p> MIT </p>
+  <p> [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) </p>
   
   ## Contribute
-  <p> undefined </p>
+  <p> They can't </p>
 
   ## Testing
-  <p> I write fake documents  </p>
+  <p> Have it fight other apps </p>
 
   ## Questions
   <p> For any questions, contact me at </p>
-  <p> Email : mckoyc@gmail.com </p>
-  <p> Github : github.com/mckoyc </p>
+  <p> Email : ?? </p>
+  <p> Github : IDC </p>
 
