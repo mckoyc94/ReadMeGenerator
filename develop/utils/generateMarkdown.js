@@ -65,7 +65,9 @@ function generateMarkdown(data) {
   <h3> Email : </h3>
   <strong>${data.email}</strong>
   <br></br>
-  <p> Github Account:</p>  
+  <h3> Github Account:</h3>
+  
+  
   [${data.github}](https://github.com/${data.github})
 
 `;

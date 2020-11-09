@@ -39,6 +39,8 @@
   <h3> Email : </h3>
   <strong>mckoyc@gmail.com</strong>
   <br></br>
-  <p> Github Account:</p>  
+  <h3> Github Account:</h3>
+  
+    
   [mckoyc94](https://github.com/mckoyc94)
 
