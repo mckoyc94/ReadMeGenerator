@@ -19,7 +19,7 @@
   <p> It doesn't </p>
 
   ## License
-  <p> [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) </p>
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   
   ## Contribute
   <p> They can't </p>

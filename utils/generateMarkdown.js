@@ -6,10 +6,9 @@ const badgeISC =
 
 const badgeIBM =
   "[![License: IPL 1.0](https://img.shields.io/badge/License-IPL%201.0-blue.svg)](https://opensource.org/licenses/IPL-1.0)";
-
 const badgeApache = 
-  "[![License: Apache 2.0](https://img.shields.io/badge/License-Apache-blue.svg)](https://opensource.org/licenses/Apache-2.0)";
-
+  "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"
+  
 const badgeMozilla = 
   "[![License: MPL-2.0](https://img.shields.io/badge/License-MPL-blue.svg)](https://opensource.org/licenses/MPL-2.0)";
 
@@ -51,7 +50,7 @@ function generateMarkdown(data) {
   <p> ${data.usage} </p>
 
   ## License
-  <p> ${renderBadge(data.license)} </p>
+  ${renderBadge(data.license)}
   
   ## Contribute
   <p> ${data.contribute} </p>
