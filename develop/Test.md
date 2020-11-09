@@ -34,6 +34,8 @@
   <h3> Email : </h3>
   <strong>user@email.net</strong>
   <br></br>
-  <p> Github Account:</p>  
+  <h3> Github Account:</h3>
+  
+    
   [gitboy](https://github.com/gitboy)
 
