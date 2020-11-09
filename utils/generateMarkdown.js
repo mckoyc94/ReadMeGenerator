@@ -53,6 +53,7 @@ function generateMarkdown(data) {
 
   ## License
   <p> This app is covered under the ${data.license} License </p>
+  
   ## Contribute
   <p> ${data.contribute} </p>
 
@@ -61,8 +62,11 @@ function generateMarkdown(data) {
 
   ## Questions
   <p> For any questions, contact me at </p>
-  <p> Email : ${data.email} </p>
-  <p> Github Account: ${data.github}</p> 
+  <h3> Email : </h3>
+  <strong>${data.email}</strong>
+  <br></br>
+  <p> Github Account:</p>  
+  [${data.github}](https://github.com/${data.github})
 
 `;
 }

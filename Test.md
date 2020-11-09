@@ -1,4 +1,6 @@
-# Test
+
+  # Test
+  [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
   
   ## Table of Contents
   * [Description](#description)
@@ -10,17 +12,17 @@
   * [Questions](#questions)
     
   ## Description
-  <p> Pass </p>
+  <p>  </p>
   
   ## Installation
-  <p> Nuttin </p>
+  <p>  </p>
 
   ## Usage
-  <p> It works </p>
+  <p>  </p>
 
   ## License
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-  
+  <p> This app is covered under the Apache License </p>
+ 
   ## Contribute
   <p>  </p>
 
@@ -29,7 +31,10 @@
 
   ## Questions
   <p> For any questions, contact me at </p>
-  <p> Email :  </p>
-  <p> Github : </p>
-  [mckoyc94](https://github.com/mckoyc94) 
+  <h3> Email : </h3>
+  <strong> mckoyc@gmail.com </strong>
+  <br></br>
+  <h3> Github Account:</h3>  
+  
+  [Mckoyc94](https://github.com/mckoyc94)
 
