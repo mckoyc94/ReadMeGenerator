@@ -1,6 +1,6 @@
 
   # Test
-  [![License: IPL 1.0](https://img.shields.io/badge/License-IPL%201.0-blue.svg)](https://opensource.org/licenses/IPL-1.0)
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   
   ## Table of Contents
   * [Description](#description)
@@ -12,28 +12,28 @@
   * [Questions](#questions)
     
   ## Description
-  <p> My project is an app that does things </p>
+  <p> It does things </p>
   
   ## Installation
-  <p> Inquirer and Jest </p>
+  <p> Nothing </p>
 
   ## Usage
-  <p> It takes things and makes a new thing </p>
+  <p> It take info and makes stuff </p>
 
   ## License
-  <p> This app is covered under the IBM License </p>
+  <p> This app is covered under the MIT License </p>
   
   ## Contribute
-  <p> They can't </p>
+  <p> They can't, it's mine </p>
 
   ## Testing
-  <p> I pit it against other apps in a battle royale </p>
+  <p> I give it standardized tests </p>
 
   ## Questions
   <p> For any questions, contact me at </p>
   <h3> Email : </h3>
-  <strong>mckoyc@gmail.com</strong>
+  <strong>user@email.net</strong>
   <br></br>
   <p> Github Account:</p>  
-  [mckoyc94](https://github.com/mckoyc94)
+  [gitboy](https://github.com/gitboy)
 

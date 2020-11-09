@@ -18,7 +18,12 @@
   <p> Inquirer </p>
 
   ## Usage
-  <p> First, the user is prompted with a series of questions to answer about the application. Once all answers have been submitted, the app will use a template to generate the Read Me, using the user's answers to fill in each section.  </p>
+  <p> First, the user is prompted with a series of questions to answer about the application.</p>
+  <img src = "develop\Screenshots\Questions.JPG" alt = "Start Up">
+  <p> Once all answers have been submitted, the app will use a template to generate the Read Me, using the user's answers to fill in each section. To see it tested out, follow the link below: </p>
+  
+  
+  [See it in Action!](https://youtu.be/W2was8YwDqQ)
 
   ## License
   <p> This app is covered under the MIT License </p>
