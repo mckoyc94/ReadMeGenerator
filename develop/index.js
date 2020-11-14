@@ -48,7 +48,6 @@ const questions = [{
 // function to write README file
 const writeToFile = (fileName, data) => {
     let file = generateMarkdown(data)
-    console.log(fileName, "\n", file)
     
     fs.writeFileSync(fileName, file);
 }
